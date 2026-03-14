@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+
+# PyTorch / ML — regeneratable; run train.py to create
+results/*.pth
+results/*.pt
+results/*.txt
+
+# Keep results/*.png so README can display plots on GitHub
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter (if you add notebooks later)
+.ipynb_checkpoints/
+
+# Optional: uncomment to ignore plot images too (smaller repo; README won’t show them)
+# results/*.png
