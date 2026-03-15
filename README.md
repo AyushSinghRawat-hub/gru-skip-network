@@ -3,7 +3,6 @@
 A custom GRU-based sequence model with skip connections, implemented from first principles in PyTorch.
 Built as part of the Trinetra Labs Machine Learning Engineer assignment.
 
-> **Loom walkthrough:** [link here after recording]
 
 ---
 
